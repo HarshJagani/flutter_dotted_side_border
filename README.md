@@ -49,15 +49,15 @@ child: Text('Hello World'),
 ## ⚙️ **Parameters**
 
 
-| Parameter                | Type                   | Description                                      | Default                      |
-|--------------------------|------------------------|--------------------------------------------------|------------------------------|
-| `child` *(required)*     | `Widget`               | The widget you want to wrap with a dotted border | -                            |
-| `color`                  | `Color`                | Color of the dots                                | `Colors.black`               |
-| `strokeWidth`            | `double`               | Size/thickness of each dot                       | `1.0`                        |
-| `gap`                    | `double`               | Space between each dot                           | `3.0`                        |
-| `padding`                | `double?`              | Distance between the child and the dotted line   | `5.0`                        |
-| `position`               | `DottedLinePosition`   | Which side to draw the dotted line on            | `DottedLinePosition.bottom`  |
-
+| Parameter                | Type                     | Description                                       | Default                      |
+|--------------------------|--------------------------|---------------------------------------------------|------------------------------|
+| `child` *(required)*     | `Widget`                 | The widget you want to wrap with a dotted border  | -                            |
+| `color`                  | `Color`                  | Color of the dots                                 | `Colors.black`               |
+| `strokeWidth`            | `double`                 | Size/thickness of each dot                        | `1.0`                        |
+| `gap`                    | `double`                 | Space between each dot                            | `3.0`                        |
+| `padding`                | `double?`                | Distance between the child and the dotted line    | `5.0`                        |
+| `position`               | `DottedLinePosition`     | Which side to draw the dotted line on             | `DottedLinePosition.bottom`  |
+| `gradient` *(optional)*  | `Gradient?`              | Applies gradient instead of solid `color`         | `null`                       |
 
 
 ## 📱 **Example**
