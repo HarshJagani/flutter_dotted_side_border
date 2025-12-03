@@ -1,0 +1,17 @@
+name: dotted_side_border
+description: A Flutter widget that adds customizable dotted borders to any side of a child widget.
+version: 1.0.0
+homepage: https://github.com/HarshJagani/flutter_dotted_side_border.git
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
